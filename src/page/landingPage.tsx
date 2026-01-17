@@ -1,3 +1,4 @@
+import Class from "../component/class";
 import FeaturesSection from "../component/featureSection";
 import Footer from "../component/footer";
 import Header from "../component/header";
@@ -10,6 +11,7 @@ const LandingPage = () => {
       <Header />
       <Hero />
       <FeaturesSection />
+      <Class />
       <Footer />
     </BackgroundLayout>
   );

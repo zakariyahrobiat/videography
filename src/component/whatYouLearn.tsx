@@ -2,7 +2,7 @@ import { IconType } from "react-icons";
 
 interface WhatYouLearnProps {
   heading: string;
-  text: string;
+  text: string[];
   Icon: IconType;
   index?: number;
 }
@@ -31,8 +31,10 @@ const WhatYouLearn = ({
           </h3>
         </div>
 
-        <p className="text-[#E0E0E0] font-inter text-base md:text-lg leading-relaxed pl-16 md:pl-20">
-          {text}
+        <p className="text-[#E0E0E0] font-inter text-base md:text-lg leading-relaxed text-left">
+          {text.map((item) => {
+            return <li key={index}>{item}</li>;
+          })}
         </p>
       </div>
     </div>
