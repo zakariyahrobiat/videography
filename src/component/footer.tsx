@@ -11,7 +11,9 @@ const Footer = () => {
       </h1>
 
       <nav role="navigation">
-        <Button text="Enrol Now" aria-label="Enroll in the course" />
+        <a href="https://bit.ly/EditwithSABpaid">
+          <Button text="Enrol Now" aria-label="Enroll in the course" />
+        </a>
       </nav>
     </footer>
   );

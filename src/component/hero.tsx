@@ -12,18 +12,15 @@ const Hero = () => {
           smartphone. No expensive camera needed. Unlock the full potential of
           the device you're already holding.
         </p>
-        <div className="flex flex-col sm:flex-row gap-4 md:gap-6 pt-4">
+        {/* <div className="flex flex-col sm:flex-row gap-4 md:gap-6 pt-4"> */}
+        <a href="https://bit.ly/EditwithSABpaid">
           <Button
             text="Enrol Now"
-            className="w-full sm:w-auto"
+            className="w-full sm:w-1/3"
             variant="primary"
           />
-          <Button
-            text="View Curriculum"
-            variant="outline"
-            className="w-full sm:w-auto"
-          />
-        </div>
+        </a>
+        {/* </div> */}
       </div>
 
       <div className="relative rounded-2xl overflow-hidden shadow-2xl">

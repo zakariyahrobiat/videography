@@ -17,9 +17,7 @@ const Class = () => {
               <h3 className="text-lg font-semibold text-[#E0E0E0]">
                 Start Date
               </h3>
-              <p className="text-2xl font-bold text-white mt-1">
-                January 30, 2026
-              </p>
+              <p className="text-2xl font-bold text-white mt-1">Self-paced</p>
             </div>
           </div>
 
@@ -29,7 +27,7 @@ const Class = () => {
             </div>
             <div>
               <h3 className="text-lg font-semibold text-[#E0E0E0]">Duration</h3>
-              <p className="text-2xl font-bold text-white mt-1">8 Weeks</p>
+              <p className="text-2xl font-bold text-white mt-1">4 Weeks</p>
             </div>
           </div>
 
@@ -51,7 +49,7 @@ const Class = () => {
             <div className="inline-block mb-3 px-4 py-1 rounded-full bg-linear-to-r from-[#EF476F] to-[#FF9A5A] text-white text-sm font-bold uppercase tracking-wider">
               Exclusive Bonuses
             </div>
-            <h1 className="text-3xl md:text-4xl font-bold bg-linear-to-r from-[#EF476F] to-[#FF9A5A] text-transparent bg-clip-text">
+            <h1 className="text-3xl md:text-4xl font-bold text-black">
               Join the Video Editing Class
             </h1>
           </div>
